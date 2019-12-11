@@ -12,9 +12,12 @@
 
 ![大佬的项目分析图](./Swift30Projects.png)
 
+- [30-Swift-Projects](#30-swift-projects)
+  * [01. GoodAsOldPhones](#01-goodasoldphones)
+    + [Screenshots](#screenshots)
+    + [知识点](#---)
 
-
-[TOC]
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ------
 
@@ -24,7 +27,7 @@ GoodAsOldPhones is the demo app of [Swift tutorial](https://www.codeschool.com/c
 
 ### Screenshots
 
-![GoodAsOldPhones](./GoodAsOldPhones/GoodAsOldPhones.gif)
+![GoodAsOldPhones](./Project 01 - GoodAsOldPhones/GoodAsOldPhones.gif)
 
 ### 知识点
 
