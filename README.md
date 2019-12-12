@@ -25,7 +25,7 @@ GoodAsOldPhones is the demo app of [Swift tutorial](https://www.codeschool.com/c
 
 ### Screenshots
 
-![GoodAsOldPhones.gif](Project 01 - GoodAsOldPhones/GoodAsOldPhones.gif )
+![GoodAsOldPhones.gif](./photo/GoodAsOldPhones.gif )
 
 ### 知识点
 
