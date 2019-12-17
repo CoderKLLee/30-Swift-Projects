@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		760182AC23A8AF5900871999 /* FBMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760182AB23A8AF5900871999 /* FBMeViewController.swift */; };
+		760182AE23A8B1F600871999 /* Specs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760182AD23A8B1F600871999 /* Specs.swift */; };
+		760182B023A8B25D00871999 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760182AF23A8B25D00871999 /* UIColor+Extension.swift */; };
+		760182B223A8B63F00871999 /* TableKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760182B123A8B63F00871999 /* TableKeys.swift */; };
+		760182B423A8B74300871999 /* FBMeUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760182B323A8B74300871999 /* FBMeUser.swift */; };
+		760182B623A8B9E500871999 /* FBMeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 760182B523A8B9E500871999 /* FBMeTableViewCell.swift */; };
+		76A1EE0E23A78DB5004E3D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A1EE0D23A78DB5004E3D28 /* AppDelegate.swift */; };
+		76A1EE1523A78DB5004E3D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A1EE1323A78DB5004E3D28 /* Main.storyboard */; };
+		76A1EE1723A78DB8004E3D28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A1EE1623A78DB8004E3D28 /* Assets.xcassets */; };
+		76A1EE1A23A78DB8004E3D28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A1EE1823A78DB8004E3D28 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		760182AB23A8AF5900871999 /* FBMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMeViewController.swift; sourceTree = "<group>"; };
+		760182AD23A8B1F600871999 /* Specs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specs.swift; sourceTree = "<group>"; };
+		760182AF23A8B25D00871999 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		760182B123A8B63F00871999 /* TableKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableKeys.swift; sourceTree = "<group>"; };
+		760182B323A8B74300871999 /* FBMeUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMeUser.swift; sourceTree = "<group>"; };
+		760182B523A8B9E500871999 /* FBMeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBMeTableViewCell.swift; sourceTree = "<group>"; };
+		76A1EE0A23A78DB5004E3D28 /* FacebookMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A1EE0D23A78DB5004E3D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76A1EE1423A78DB5004E3D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76A1EE1623A78DB8004E3D28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76A1EE1923A78DB8004E3D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76A1EE1B23A78DB8004E3D28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A1EE0723A78DB5004E3D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A1EE0123A78DB5004E3D28 = {
+			isa = PBXGroup;
+			children = (
+				76A1EE0C23A78DB5004E3D28 /* FacebookMe */,
+				76A1EE0B23A78DB5004E3D28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A1EE0B23A78DB5004E3D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A1EE0A23A78DB5004E3D28 /* FacebookMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A1EE0C23A78DB5004E3D28 /* FacebookMe */ = {
+			isa = PBXGroup;
+			children = (
+				76A1EE0D23A78DB5004E3D28 /* AppDelegate.swift */,
+				76A1EE2123A78E07004E3D28 /* Helper */,
+				76A1EE2223A78E16004E3D28 /* ViewController */,
+				76A1EE2323A78E26004E3D28 /* View */,
+				76A1EE2423A78E2A004E3D28 /* Model */,
+				76A1EE1323A78DB5004E3D28 /* Main.storyboard */,
+				76A1EE1623A78DB8004E3D28 /* Assets.xcassets */,
+				76A1EE1823A78DB8004E3D28 /* LaunchScreen.storyboard */,
+				76A1EE1B23A78DB8004E3D28 /* Info.plist */,
+			);
+			path = FacebookMe;
+			sourceTree = "<group>";
+		};
+		76A1EE2123A78E07004E3D28 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				760182AD23A8B1F600871999 /* Specs.swift */,
+				760182AF23A8B25D00871999 /* UIColor+Extension.swift */,
+				760182B123A8B63F00871999 /* TableKeys.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		76A1EE2223A78E16004E3D28 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				760182AB23A8AF5900871999 /* FBMeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		76A1EE2323A78E26004E3D28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				760182B523A8B9E500871999 /* FBMeTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76A1EE2423A78E2A004E3D28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				760182B323A8B74300871999 /* FBMeUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A1EE0923A78DB5004E3D28 /* FacebookMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A1EE1E23A78DB8004E3D28 /* Build configuration list for PBXNativeTarget "FacebookMe" */;
+			buildPhases = (
+				76A1EE0623A78DB5004E3D28 /* Sources */,
+				76A1EE0723A78DB5004E3D28 /* Frameworks */,
+				76A1EE0823A78DB5004E3D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookMe;
+			productName = FacebookMe;
+			productReference = 76A1EE0A23A78DB5004E3D28 /* FacebookMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A1EE0223A78DB5004E3D28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Kairon;
+				TargetAttributes = {
+					76A1EE0923A78DB5004E3D28 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 76A1EE0523A78DB5004E3D28 /* Build configuration list for PBXProject "FacebookMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A1EE0123A78DB5004E3D28;
+			productRefGroup = 76A1EE0B23A78DB5004E3D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A1EE0923A78DB5004E3D28 /* FacebookMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A1EE0823A78DB5004E3D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A1EE1A23A78DB8004E3D28 /* LaunchScreen.storyboard in Resources */,
+				76A1EE1723A78DB8004E3D28 /* Assets.xcassets in Resources */,
+				76A1EE1523A78DB5004E3D28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A1EE0623A78DB5004E3D28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				760182AE23A8B1F600871999 /* Specs.swift in Sources */,
+				760182B223A8B63F00871999 /* TableKeys.swift in Sources */,
+				760182B623A8B9E500871999 /* FBMeTableViewCell.swift in Sources */,
+				760182B423A8B74300871999 /* FBMeUser.swift in Sources */,
+				760182AC23A8AF5900871999 /* FBMeViewController.swift in Sources */,
+				76A1EE0E23A78DB5004E3D28 /* AppDelegate.swift in Sources */,
+				760182B023A8B25D00871999 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76A1EE1323A78DB5004E3D28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A1EE1423A78DB5004E3D28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76A1EE1823A78DB8004E3D28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A1EE1923A78DB8004E3D28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A1EE1C23A78DB8004E3D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76A1EE1D23A78DB8004E3D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A1EE1F23A78DB8004E3D28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WGXG2B562;
+				INFOPLIST_FILE = FacebookMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karion.FacebookMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76A1EE2023A78DB8004E3D28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WGXG2B562;
+				INFOPLIST_FILE = FacebookMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.karion.FacebookMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A1EE0523A78DB5004E3D28 /* Build configuration list for PBXProject "FacebookMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A1EE1C23A78DB8004E3D28 /* Debug */,
+				76A1EE1D23A78DB8004E3D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A1EE1E23A78DB8004E3D28 /* Build configuration list for PBXNativeTarget "FacebookMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A1EE1F23A78DB8004E3D28 /* Debug */,
+				76A1EE2023A78DB8004E3D28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A1EE0223A78DB5004E3D28 /* Project object */;
+}

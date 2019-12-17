@@ -19,6 +19,9 @@
   * [02. Stopwatch](#02-stopwatch)
     + [Screenshots](#screenshots-1)
     + [知识点](#知识点-1)
+  * [03. FacebookMe](#03-FacebookMe)
+    + [Screenshots](#screenshots-2)
+    + [知识点](#知识点-2)
 
 ------
 
@@ -70,5 +73,18 @@ Stopwatch is a Swift App that measures amount of time elapsed from a particular 
 
 - SnapKit 第三方的基本使用，实在是不想算frame了 
 
-  
+## 03. FacebookMe
+
+FacebookMe is a Swift App Mimics the personal profile tab of Facebook. It demos one simple way to implement a UITableView with mutiple sections and different types of cells.
+
+### Screenshots
+
+![FacebookMe](./photo/FacebookMe.gif)
+
+### 知识点
+
+- UITableView多区间的简单使用
+- struck 的简单使用
+- as关键字的简单使用
+- convenience 关键字的简单使用
 
